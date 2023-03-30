@@ -20,6 +20,7 @@ function App() {
   console.log("isAdminLoggedIN",isAdminLoggedIn)
   console.log("isUserLoggedIN",isUserLoggedIn)
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(()=>{
     if(localStorage.getItem("userId"))
     {
